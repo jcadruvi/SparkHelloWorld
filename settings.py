@@ -1,0 +1,1 @@
+SPARK_HOME = "/Users/joshcadruvi/Documents/spark-1.5.2-bin-hadoop2.6"
