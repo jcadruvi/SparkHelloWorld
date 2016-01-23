@@ -1,1 +1,4 @@
+.coverage
 .idea/
+*.pyc
+nose2-junit.xml
