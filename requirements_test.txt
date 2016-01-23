@@ -1,0 +1,5 @@
+coverage==3.7.1
+mock==1.0.1
+pep8==1.5.7
+pylint==1.4.1
+nose2==0.5.0
