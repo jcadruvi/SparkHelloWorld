@@ -1,1 +1,1 @@
-SPARK_HOME = "/Users/joshcadruvi/Documents/spark-1.5.2-bin-hadoop2.6"
+SPARK_HOME = "C://spark-1.6.0-bin-hadoop2.6"
