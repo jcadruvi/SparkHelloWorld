@@ -20,5 +20,8 @@ except ImportError as e:
     sys.exit(1)
 
 sc = SparkContext('local')
-words = sc.parallelize(["scala","java","hadoop","spark","akka"])
-print "word count = {}".format(words.count())
+rdd = sc.textFile("tests/test_integration/test_file")
+words = rdd.flatMap(lambda line: line.split("|"))
+pairs = words.map(lambda word: (word, 1))
+wordCounts = pairs.reduceByKey(lambda x, y: x + y)
+print wordCounts.collect()
