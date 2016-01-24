@@ -15,3 +15,14 @@ $ pip install -r requirements.txt
 $ pip install -r requirements_test.txt
 $ ./run_tests_integration
 
+
+Follow these instructions to get this project working on Windows:
+
+Go to the following link:
+
+http://spark.apache.org/downloads.html
+In choose a package type select: Pre-built for Hadoop 2.6 and later
+The click on the Download Spark link.
+Then click on an HTTP server. 
+
+Unzip the file and then follow the instructions on how to get this application working. 
